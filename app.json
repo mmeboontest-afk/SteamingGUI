@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "N'Me's SM",
+    "slug": "nmes-sm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#f8c8d4" },
+    "android": {
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#f8c8d4" },
+      "package": "com.nmeboon.smapp",
+      "versionCode": 1,
+      "permissions": ["RECORD_AUDIO","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","INTERNET","FOREGROUND_SERVICE"]
+    },
+    "plugins": ["expo-av","expo-screen-capture","expo-font","expo-image-picker"]
+  }
+}
